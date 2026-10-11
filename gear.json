@@ -1,0 +1,42 @@
+[
+  {
+    "id": "baratza-encore-esp",
+    "name": "Baratza Encore ESP",
+    "category": "Grinders",
+    "priceRange": "$199",
+    "bestFor": "Entry-Level All-Rounder",
+    "image": "https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
+    "description": "Features dual-range adjustment with micro-steps for precision dialing in espresso extraction."
+  },
+  {
+    "id": "breville-bambino-plus",
+    "name": "Breville Bambino Plus",
+    "category": "Espresso Machines",
+    "priceRange": "$499",
+    "bestFor": "Compact Home Baristas",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
+    "description": "3-second heat-up time with ThermoJet heating and automated hands-free milk microfoam texturing."
+  },
+  {
+    "id": "kingrinder-k6",
+    "name": "KINGrinder K6 Hand Grinder",
+    "category": "Hand Grinders",
+    "priceRange": "$99",
+    "bestFor": "Budget Espresso Precision",
+    "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
+    "description": "16um per click external adjustment ring, making fine adjustments for espresso effortless."
+  },
+  {
+    "id": "timemore-black-mirror",
+    "name": "Timemore Black Mirror Basic+",
+    "category": "Scales & Accessories",
+    "priceRange": "$55",
+    "bestFor": "Shot Timing & Ratio Accuracy",
+    "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
+    "description": "0.1g fast response digital scale with built-in auto-timer for consistent shot ratio measurements."
+  }
+]

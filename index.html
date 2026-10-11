@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espresso Lab | Your Home Espresso Roadmap</title>
+    <style>
+        :root {
+            --bg: #fdfbf7;
+            --surface: #ffffff;
+            --text-main: #2b2623;
+            --text-muted: #6e6761;
+            --accent: #8c533e;
+            --accent-hover: #70402e;
+            --border: #e8e2d9;
+            --card-shadow: 0 4px 20px rgba(140, 83, 62, 0.08);
+            --radius: 16px;
+            --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body.dark-theme {
+            --bg: #141211;
+            --surface: #1e1b18;
+            --text-main: #f0eae1;
+            --text-muted: #a39b92;
+            --accent: #d98263;
+            --accent-hover: #e59376;
+            --border: #2e2a25;
+            --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.25s, color 0.25s, border-color 0.25s;
+        }
+
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* Top Header */
+        header {
+            position: sticky;
+            top: 0;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            box-shadow: 0 4px 12px rgba(140, 83, 62, 0.03);
+        }
+
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0.8rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--text-main);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-badge {
+            background: var(--accent);
+            color: white;
+            width: 38px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 6px rgba(140, 83, 62, 0.3);
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .theme-toggle {
+            background: var(--surface);
+            border: 2px solid var(--accent);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            color: var(--accent);
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .theme-toggle:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Main Layout */
+        .page-wrapper {
+            max-width: 1280px;
+            margin: 2rem auto 0;
+            padding: 0 1.5rem;
+            display: grid;
+            grid-template-columns: 220px 1fr 280px;
+            gap: 2rem;
+            align-items: start;
+        }
+
+        /* Left Sidebar */
+        .left-sidebar {
+            position: sticky;
+            top: 5rem;
+        }
+
+        .left-nav {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            background: var(--surface);
+            padding: 1.25rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            box-shadow: var(--card-shadow);
+        }
+
+        .left-nav a {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 0.92rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.6rem 0.8rem;
+            border-radius: 8px;
+        }
+
+        .left-nav a:hover {
+            background: var(--bg);
+            color: var(--accent);
+        }
+
+        /* Center Content Area */
+        .main-content {
+            min-width: 0;
+        }
+
+        /* Hero Banner */
+        .hero {
+            background: linear-gradient(135deg, rgba(140, 83, 62, 0.05), rgba(217, 130, 99, 0.1));
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            box-shadow: var(--card-shadow);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-height: 360px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        /* Gear Selector Widget */
+        .selector-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 2.5rem;
+        }
+
+        .selector-card h2 {
+            font-size: 1.35rem;
+            margin-bottom: 0.4rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .selector-card p {
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-size: 0.9rem;
+        }
+
+        .selector-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+        }
+
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text-main);
+            font-size: 0.9rem;
+            outline: none;
+            font-weight: 600;
+        }
+
+        .recommend-btn {
+            width: 100%;
+            background: var(--accent);
+            color: #fff;
+            border: none;
+            padding: 0.85rem;
+            border-radius: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 12px rgba(140, 83, 62, 0.2);
+        }
+
+        .recommend-btn:hover {
+            background: var(--accent-hover);
+        }
+
+        .recommendation-result {
+            display: none;
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px dashed var(--border);
+        }
+
+        /* Category Filter */
+        .category-filter {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 2rem;
+            overflow-x: auto;
+            padding-bottom: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .filter-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            cursor: pointer;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .filter-btn.active {
+            background: var(--accent);
+            color: #fff;
+            border-color: var(--accent);
+        }
+
+        /* Articles Stream */
+        .articles-stream {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
+
+        .article-block {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2.5rem;
+            box-shadow: var(--card-shadow);
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 0.6rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .article-block-tag {
+            color: var(--accent);
+            letter-spacing: 0.5px;
+        }
+
+        .article-block-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
+        }
+
+        .article-summary {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+            font-style: italic;
+            border-left: 3px solid var(--accent);
+            padding-left: 1rem;
+        }
+
+        .article-block-img {
+            width: 100%;
+            max-height: 380px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            margin-bottom: 1.5rem;
+        }
+
+        .article-block-body {
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .article-block-body p {
+            margin-bottom: 1.2rem;
+        }
+
+        .affiliate-link-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            font-weight: 700;
+            margin-top: 1.5rem;
+            box-shadow: 0 4px 12px rgba(140, 83, 62, 0.2);
+        }
+
+        .affiliate-link-btn:hover {
+            background: var(--accent-hover);
+        }
+
+        /* Gear Hub Section Styles */
+        .gear-hub-section {
+            margin-top: 3.5rem;
+        }
+
+        .gear-hub-title {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .gear-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gear-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            box-shadow: var(--card-shadow);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .gear-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border);
+        }
+
+        .gear-card-tag {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 0.3rem;
+        }
+
+        .gear-card h3 {
+            font-size: 1.15rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .gear-card-price {
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        .gear-card p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .gear-btn {
+            display: block;
+            text-align: center;
+            background: var(--bg);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .gear-btn:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Right Sidebar */
+        .right-sidebar {
+            position: sticky;
+            top: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .widget-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.25rem;
+            box-shadow: var(--card-shadow);
+        }
+
+        .widget-box h3 {
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .widget-box p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .spotlight-card img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-bottom: 0.75rem;
+        }
+
+        .spotlight-link {
+            display: inline-block;
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* About Section */
+        .about-section {
+            margin-top: 3.5rem;
+            padding: 2.5rem 2rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            box-shadow: var(--card-shadow);
+        }
+
+        .about-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .about-section p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            max-width: 1280px;
+            margin: 3rem auto 0;
+            padding: 0 1.5rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .page-wrapper {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .left-sidebar, .right-sidebar {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .selector-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .article-block {
+                padding: 1.5rem;
+            }
+
+            .article-block-title {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a class="logo" href="#">
+                <div class="logo-badge">☕</div>
+                Espresso<span>Lab</span>
+            </a>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode</button>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        
+        <!-- LEFT SIDEBAR -->
+        <aside class="left-sidebar">
+            <ul class="left-nav">
+                <li><a href="#articles">📖 Articles & Guides</a></li>
+                <li><a href="#gear-hub">🛠️ Gear Directory</a></li>
+                <li><a href="#gear-selector">⚙️ Gear Matcher</a></li>
+                <li><a href="#about">🧪 About Lab</a></li>
+            </ul>
+        </aside>
+
+        <!-- CENTER CONTENT AREA -->
+        <main class="main-content">
+            
+            <section class="hero">
+                <h1>Your Home Espresso Roadmap ☕✨</h1>
+                <p>Thoughtful guides, honest equipment reviews, and practical advice to help you dial in better coffee at home.</p>
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=80" alt="Espresso Machine Setup" class="hero-image">
+            </section>
+
+            <section class="selector-card" id="gear-selector">
+                <h2>🔍 Find Your Setup Match</h2>
+                <p>Select your budget and preference to see our recommended entry gear combination.</p>
+                
+                <div class="selector-grid">
+                    <div class="form-group">
+                        <label>💰 Budget Level</label>
+                        <select id="budgetSelect">
+                            <option value="entry">Under $300 (Starter)</option>
+                            <option value="mid">$300 – $800 (Intermediate)</option>
+                            <option value="prosumer">$800+ (Prosumer)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>🥛 Drink Preference</label>
+                        <select id="drinkSelect">
+                            <option value="straight">Straight Espresso Shots</option>
+                            <option value="milk">Milk Drinks (Lattes / Cappuccinos)</option>
+                            <option value="both">A Bit of Everything</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button class="recommend-btn" onclick="getRecommendation()">Find Recommended Setup</button>
+
+                <div class="recommendation-result" id="recommendationResult">
+                    <h3 id="resultTitle" style="margin-bottom:0.4rem; font-size:1.1rem;"></h3>
+                    <p id="resultText" style="color:var(--text-muted); font-size:0.9rem;"></p>
+                </div>
+            </section>
+
+            <section id="articles">
+                <div class="category-filter" id="categoryFilter">
+                    <button class="filter-btn active" onclick="filterArticles('all')">☕ All Posts</button>
+                </div>
+
+                <div class="articles-stream" id="articlesStream">
+                    <!-- Posts loaded dynamically from posts.json -->
+                </div>
+            </section>
+
+            <!-- Dedicated Barista Gear Directory Section -->
+            <section class="gear-hub-section" id="gear-hub">
+                <h2 class="gear-hub-title">🛠️ Barista Gear Directory</h2>
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
+                    Hand-picked grinders, machines, and accessories tested for home espresso reliability.
+                </p>
+                <div class="gear-grid" id="gearGrid">
+                    <!-- Gear items loaded dynamically from gear.json -->
+                </div>
+            </section>
+
+            <section class="about-section" id="about">
+                <h2>☕ About Espresso Lab</h2>
+                <p>Making great espresso at home can feel confusing with so many machines, grinders, and techniques out there. Espresso Lab exists to cut through the noise with practical, step-by-step guides and honest gear evaluations so you can enjoy cafe-quality coffee in your own kitchen.</p>
+            </section>
+
+        </main>
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="right-sidebar">
+            <div class="widget-box">
+                <h3>💡 Quick Barista Tip</h3>
+                <p>Always weigh your coffee grounds and liquid yield! A 0.1g digital scale is the fastest way to get consistent tasting espresso every morning.</p>
+            </div>
+
+            <div class="widget-box spotlight-card">
+                <h3>⭐ Essential Gear</h3>
+                <img src="https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?auto=format&fit=crop&w=600&q=80" alt="Espresso Grinder">
+                <p><strong>Baratza Encore ESP</strong></p>
+                <p>The go-to entry-level grinder for micro-adjustable espresso grinding.</p>
+                <a href="https://amazon.com" target="_blank" rel="noopener" class="spotlight-link">View on Amazon &rarr;</a>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Espresso Lab. Independent coffee guides & reviews. ☕✨</p>
+    </footer>
+
+ <script>
+        let loadedArticles = [];
+        let loadedGear = [];
+
+        async function loadData() {
+            // Fetch directly from posts.json
+            try {
+                const resPosts = await fetch('./posts.json');
+                if (resPosts.ok) {
+                    const data = await resPosts.json();
+                    if (Array.isArray(data)) loadedArticles = data;
+                }
+            } catch (err) {
+                console.log("Could not load posts.json (Check local server / file path)");
+            }
+
+            // Fetch directly from gear.json
+            try {
+                const resGear = await fetch('./gear.json');
+                if (resGear.ok) {
+                    const data = await resGear.json();
+                    if (Array.isArray(data)) loadedGear = data;
+                }
+            } catch (err) {
+                console.log("Could not load gear.json (Check local server / file path)");
+            }
+
+            buildCategoryFilters();
+            renderArticles('all');
+            renderGear();
+        }
+
+        function buildCategoryFilters() {
+            const filterContainer = document.getElementById('categoryFilter');
+            const categories = ['all', ...new Set(loadedArticles.map(a => a.category))];
+            
+            filterContainer.innerHTML = '';
+            categories.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.className = `filter-btn ${cat === 'all' ? 'active' : ''}`;
+                btn.innerText = cat === 'all' ? '☕ All Posts' : `📁 ${cat}`;
+                btn.onclick = () => filterArticles(cat, btn);
+                filterContainer.appendChild(btn);
+            });
+        }
+
+        function renderArticles(filterCategory) {
+            const stream = document.getElementById('articlesStream');
+            stream.innerHTML = '';
+
+            const filtered = filterCategory === 'all' 
+                ? loadedArticles 
+                : loadedArticles.filter(a => a.category === filterCategory);
+
+            if (filtered.length === 0) {
+                stream.innerHTML = `<p style="color:var(--text-muted); text-align:center; padding: 2rem;">No posts found in posts.json yet.</p>`;
+                return;
+            }
+
+            filtered.forEach(article => {
+                const block = document.createElement('div');
+                block.className = 'article-block';
+                
+                let affiliateHtml = '';
+                if (article.affiliateUrl) {
+                    const label = article.affiliateProduct ? `Check Price for ${article.affiliateProduct} on Amazon` : 'View Recommended Gear on Amazon';
+                    affiliateHtml = `<a href="${article.affiliateUrl}" target="_blank" rel="noopener" class="affiliate-link-btn">🛒 ${label}</a>`;
+                }
+
+                let summaryHtml = article.summary ? `<div class="article-summary">${article.summary}</div>` : '';
+
+                block.innerHTML = `
+                    <div class="article-meta">
+                        <span class="article-block-tag">☕ ${article.category}</span>
+                        <span>📅 ${article.date || ''} &bull; ⏱️ ${article.readTime || '5 min read'}</span>
+                    </div>
+                    <h2 class="article-block-title">${article.title}</h2>
+                    ${summaryHtml}
+                    <img src="${article.image}" alt="${article.title}" class="article-block-img">
+                    <div class="article-block-body">
+                        ${article.body}
+                        ${affiliateHtml}
+                    </div>
+                `;
+                stream.appendChild(block);
+            });
+        }
+
+        function renderGear() {
+            const grid = document.getElementById('gearGrid');
+            grid.innerHTML = '';
+
+            if (loadedGear.length === 0) {
+                grid.innerHTML = `<p style="color:var(--text-muted);">No gear items found in gear.json yet.</p>`;
+                return;
+            }
+
+            loadedGear.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'gear-card';
+                card.innerHTML = `
+                    <div>
+                        <img src="${item.image}" alt="${item.name}">
+                        <div class="gear-card-tag">${item.category}</div>
+                        <h3>${item.name}</h3>
+                        <div class="gear-card-price">${item.priceRange} &bull; <span style="font-size:0.8rem; color:var(--text-muted);">${item.bestFor}</span></div>
+                        <p>${item.description}</p>
+                    </div>
+                    <a href="${item.affiliateUrl}" target="_blank" rel="noopener" class="gear-btn">🛒 Check Price on Amazon</a>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterArticles(category, clickedBtn) {
+            if (clickedBtn) {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                clickedBtn.classList.add('active');
+            }
+            renderArticles(category);
+        }
+
+        function getRecommendation() {
+            const budget = document.getElementById('budgetSelect').value;
+            const resBox = document.getElementById('recommendationResult');
+            const title = document.getElementById('resultTitle');
+            const text = document.getElementById('resultText');
+
+            if (budget === 'entry') {
+                title.innerText = "Suggested Combo: De'Longhi Dedica + Kingrinder K6";
+                text.innerText = "Great starter value. A manual hand grinder combined with a compact machine lets you dial in real espresso shots on a budget.";
+            } else if (budget === 'mid') {
+                title.innerText = "Suggested Combo: Breville Bambino Plus + Baratza ESP";
+                text.innerText = "The sweet spot for home baristas. Instant heat-up times, solid steam wand power, and reliable stepped espresso grinding.";
+            } else {
+                title.innerText = "Suggested Combo: Gaggia Classic Pro / Rancilio Silvia + DF64 Gen 2";
+                text.innerText = "Prosumer capability with standard 58mm commercial portafilters and high-precision flat burr grinding.";
+            }
+
+            resBox.style.display = 'block';
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+            const isDark = document.body.classList.contains('dark-theme');
+            document.querySelector('.theme-toggle').innerText = isDark ? '☀️ Light' : '🌙 Mode';
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
