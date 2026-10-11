@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espresso Lab | Your Home Espresso Roadmap</title>
+    <title>Workspace Lab | Your Ergonomic Office Roadmap</title>
     <style>
         :root {
-            --bg: #fdfbf7;
+            --bg: #f9fafb;
             --surface: #ffffff;
-            --text-main: #2b2623;
-            --text-muted: #6e6761;
-            --accent: #8c533e;
-            --accent-hover: #70402e;
-            --border: #e8e2d9;
-            --card-shadow: 0 4px 20px rgba(140, 83, 62, 0.08);
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+            --border: #e5e7eb;
+            --card-shadow: 0 4px 20px rgba(37, 99, 235, 0.06);
             --radius: 16px;
             --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
 
         body.dark-theme {
-            --bg: #141211;
-            --surface: #1e1b18;
-            --text-main: #f0eae1;
-            --text-muted: #a39b92;
-            --accent: #d98263;
-            --accent-hover: #e59376;
-            --border: #2e2a25;
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+            --border: #334155;
             --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
         }
 
@@ -51,7 +51,7 @@
             background: var(--surface);
             border-bottom: 1px solid var(--border);
             z-index: 100;
-            box-shadow: 0 4px 12px rgba(140, 83, 62, 0.03);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.03);
         }
 
         .nav-container {
@@ -83,7 +83,7 @@
             justify-content: center;
             border-radius: 50%;
             font-size: 1.2rem;
-            box-shadow: 0 2px 6px rgba(140, 83, 62, 0.3);
+            box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3);
         }
 
         .logo span {
@@ -159,7 +159,7 @@
 
         /* Hero Banner */
         .hero {
-            background: linear-gradient(135deg, rgba(140, 83, 62, 0.05), rgba(217, 130, 99, 0.1));
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(59, 130, 246, 0.1));
             border: 1px solid var(--border);
             border-radius: var(--radius);
             padding: 2.5rem 2rem;
@@ -251,7 +251,7 @@
             font-weight: 700;
             cursor: pointer;
             font-size: 0.95rem;
-            box-shadow: 0 4px 12px rgba(140, 83, 62, 0.2);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
         }
 
         .recommend-btn:hover {
@@ -367,7 +367,7 @@
             border-radius: 10px;
             font-weight: 700;
             margin-top: 1.5rem;
-            box-shadow: 0 4px 12px rgba(140, 83, 62, 0.2);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
         }
 
         .affiliate-link-btn:hover {
@@ -573,8 +573,8 @@
     <header>
         <div class="nav-container">
             <a class="logo" href="#">
-                <div class="logo-badge">☕</div>
-                Espresso<span>Lab</span>
+                <div class="logo-badge">🪑</div>
+                Workspace<span>Lab</span>
             </a>
             <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode</button>
         </div>
@@ -596,30 +596,30 @@
         <main class="main-content">
             
             <section class="hero">
-                <h1>Your Home Espresso Roadmap ☕✨</h1>
-                <p>Thoughtful guides, honest equipment reviews, and practical advice to help you dial in better coffee at home.</p>
-                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=80" alt="Espresso Machine Setup" class="hero-image">
+                <h1>Your Ergonomic Office Roadmap 🪑✨</h1>
+                <p>Thoughtful guides, honest equipment reviews, and practical advice to help you build a healthier, high-performance workspace at home.</p>
+                <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=1200&q=80" alt="Ergonomic Workspace Setup" class="hero-image">
             </section>
 
             <section class="selector-card" id="gear-selector">
                 <h2>🔍 Find Your Setup Match</h2>
-                <p>Select your budget and preference to see our recommended entry gear combination.</p>
+                <p>Select your budget and workspace preference to see our recommended home office configuration.</p>
                 
                 <div class="selector-grid">
                     <div class="form-group">
                         <label>💰 Budget Level</label>
                         <select id="budgetSelect">
-                            <option value="entry">Under $300 (Starter)</option>
-                            <option value="mid">$300 – $800 (Intermediate)</option>
-                            <option value="prosumer">$800+ (Prosumer)</option>
+                            <option value="entry">Under $150 (Starter Upgrades)</option>
+                            <option value="mid">$150 – $450 (Intermediate Ergonomics)</option>
+                            <option value="prosumer">$450+ (Pro Workstation)</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>🥛 Drink Preference</label>
+                        <label>💻 Workspace Focus</label>
                         <select id="drinkSelect">
-                            <option value="straight">Straight Espresso Shots</option>
-                            <option value="milk">Milk Drinks (Lattes / Cappuccinos)</option>
-                            <option value="both">A Bit of Everything</option>
+                            <option value="posture">Posture & Spine Support</option>
+                            <option value="cable">Cable Management & Clean Desk</option>
+                            <option value="dualscreen">Multi-Monitor Productivity</option>
                         </select>
                     </div>
                 </div>
@@ -634,7 +634,7 @@
 
             <section id="articles">
                 <div class="category-filter" id="categoryFilter">
-                    <button class="filter-btn active" onclick="filterArticles('all')">☕ All Posts</button>
+                    <button class="filter-btn active" onclick="filterArticles('all')">🪑 All Posts</button>
                 </div>
 
                 <div class="articles-stream" id="articlesStream">
@@ -642,11 +642,11 @@
                 </div>
             </section>
 
-            <!-- Dedicated Barista Gear Directory Section -->
+            <!-- Dedicated Workspace Gear Directory Section -->
             <section class="gear-hub-section" id="gear-hub">
-                <h2 class="gear-hub-title">🛠️ Barista Gear Directory</h2>
+                <h2 class="gear-hub-title">🛠️ Workspace Gear Directory</h2>
                 <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
-                    Hand-picked grinders, machines, and accessories tested for home espresso reliability.
+                    Hand-picked monitor arms, cable trays, and ergonomic accessories tested for daily remote work reliability.
                 </p>
                 <div class="gear-grid" id="gearGrid">
                     <!-- Gear items loaded dynamically from gear.json -->
@@ -654,8 +654,8 @@
             </section>
 
             <section class="about-section" id="about">
-                <h2>☕ About Espresso Lab</h2>
-                <p>Making great espresso at home can feel confusing with so many machines, grinders, and techniques out there. Espresso Lab exists to cut through the noise with practical, step-by-step guides and honest gear evaluations so you can enjoy cafe-quality coffee in your own kitchen.</p>
+                <h2>🪑 About Workspace Lab</h2>
+                <p>Working from home efficiently requires a thoughtful setup that protects your posture and boosts focus. Workspace Lab exists to cut through the noise with practical guides and honest gear evaluations so you can build a clean, ergonomic workstation without wasting money.</p>
             </section>
 
         </main>
@@ -663,15 +663,15 @@
         <!-- RIGHT SIDEBAR -->
         <aside class="right-sidebar">
             <div class="widget-box">
-                <h3>💡 Quick Barista Tip</h3>
-                <p>Always weigh your coffee grounds and liquid yield! A 0.1g digital scale is the fastest way to get consistent tasting espresso every morning.</p>
+                <h3>💡 Quick Ergonomic Tip</h3>
+                <p>Keep your monitor top edge at or slightly below eye level, and ensure your elbows sit at a comfortable 90-degree angle while typing!</p>
             </div>
 
             <div class="widget-box spotlight-card">
                 <h3>⭐ Essential Gear</h3>
-                <img src="https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?auto=format&fit=crop&w=600&q=80" alt="Espresso Grinder">
-                <p><strong>Baratza Encore ESP</strong></p>
-                <p>The go-to entry-level grinder for micro-adjustable espresso grinding.</p>
+                <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80" alt="Monitor Arm">
+                <p><strong>Heavy-Duty Monitor Arm</strong></p>
+                <p>Free up valuable desk space and position your screens precisely where you need them.</p>
                 <a href="https://amazon.com" target="_blank" rel="noopener" class="spotlight-link">View on Amazon &rarr;</a>
             </div>
         </aside>
@@ -679,10 +679,10 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 Espresso Lab. Independent coffee guides & reviews. ☕✨</p>
+        <p>&copy; 2026 Workspace Lab. Independent ergonomic guides & reviews. 🪑✨</p>
     </footer>
 
- <script>
+    <script>
         let loadedArticles = [];
         let loadedGear = [];
 
@@ -722,7 +722,7 @@
             categories.forEach(cat => {
                 const btn = document.createElement('button');
                 btn.className = `filter-btn ${cat === 'all' ? 'active' : ''}`;
-                btn.innerText = cat === 'all' ? '☕ All Posts' : `📁 ${cat}`;
+                btn.innerText = cat === 'all' ? '🪑 All Posts' : `📁 ${cat}`;
                 btn.onclick = () => filterArticles(cat, btn);
                 filterContainer.appendChild(btn);
             });
@@ -755,7 +755,7 @@
 
                 block.innerHTML = `
                     <div class="article-meta">
-                        <span class="article-block-tag">☕ ${article.category}</span>
+                        <span class="article-block-tag">🪑 ${article.category}</span>
                         <span>📅 ${article.date || ''} &bull; ⏱️ ${article.readTime || '5 min read'}</span>
                     </div>
                     <h2 class="article-block-title">${article.title}</h2>
@@ -811,14 +811,14 @@
             const text = document.getElementById('resultText');
 
             if (budget === 'entry') {
-                title.innerText = "Suggested Combo: De'Longhi Dedica + Kingrinder K6";
-                text.innerText = "Great starter value. A manual hand grinder combined with a compact machine lets you dial in real espresso shots on a budget.";
+                title.innerText = "Suggested Combo: Under-Desk Cable Tray + Ergonomic Footrest";
+                text.innerText = "Great starter value. Clean up messy desk wiring and improve leg posture instantly with minimal investment.";
             } else if (budget === 'mid') {
-                title.innerText = "Suggested Combo: Breville Bambino Plus + Baratza ESP";
-                text.innerText = "The sweet spot for home baristas. Instant heat-up times, solid steam wand power, and reliable stepped espresso grinding.";
+                title.innerText = "Suggested Combo: Dual Monitor Arm + Adjustable Laptop Stand";
+                text.innerText = "The sweet spot for remote workers. Frees up desk footprint and elevates screens to a neck-friendly height.";
             } else {
-                title.innerText = "Suggested Combo: Gaggia Classic Pro / Rancilio Silvia + DF64 Gen 2";
-                text.innerText = "Prosumer capability with standard 58mm commercial portafilters and high-precision flat burr grinding.";
+                title.innerText = "Suggested Combo: Electric Standing Desk Frame + Premium Ergonomic Mesh Chair";
+                text.innerText = "Pro workstation capability supporting active sitting, full height adjustability, and long-term spinal support.";
             }
 
             resBox.style.display = 'block';
