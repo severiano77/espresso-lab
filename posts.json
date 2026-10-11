@@ -1,14 +1,14 @@
 [
   {
-    "id": "puck-prep-perfection",
-    "title": "The Secret to No-Channeling Espresso: Puck Prep Essentials",
-    "category": "Technique",
-    "readTime": "5 min read",
-    "date": "October 24, 2026",
+    "id": "mastering-espresso-extraction",
+    "title": "The Science of Extraction: Why Your Espresso Tastes Sour",
+    "category": "Espresso Science",
+    "readTime": "6 min read",
+    "date": "Oct 20, 2026",
     "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
-    "summary": "Learn the essential techniques of WDT, distribution, and tamping to eliminate channeling and improve your shot consistency.",
-    "affiliateProduct": "Normcore V4 Spring-Loaded Tamper",
-    "affiliateUrl": "https://amazon.com",
-    "body": "<h3>The Importance of Puck Prep</h3><p>Even with the most expensive espresso machine, poor puck preparation leads to channeling—where water finds the path of least resistance through the coffee bed. This results in an uneven extraction, giving you a shot that is both sour and bitter at the same time.</p><h4>Step 1: WDT (Weiss Distribution Technique)</h4><p>Using a WDT tool with thin needles (0.3mm to 0.4mm) helps break up clumps caused by the grinder's static and ensures an even density across the portafilter basket. Swirl the needles from the bottom up to homogenize the bed.</p><h4>Step 2: Leveling</h4><p>Before tamping, ensure the coffee is level. A quick vertical tap on the counter can help settle the grounds, but your WDT tool should have already done the heavy lifting.</p><h4>Step 3: The Tamp</h4><p>A level tamp is far more important than the specific amount of pressure you apply. Once the air is squeezed out of the coffee bed, additional pressure doesn't change the density significantly. Focus on keeping the tamper perfectly horizontal to the basket rim.</p>"
+    "summary": "Struggling with sour or bitter coffee? We break down the mechanics of extraction so you can achieve the perfect balance every morning.",
+    "affiliateProduct": "Acaia Lunar Precision Scale",
+    "affiliateUrl": "https://acaia.co",
+    "body": "<h3>The Extraction Spectrum</h3><p>Espresso brewing is essentially a race against time and chemistry. Extraction refers to how much of the coffee solubles are dissolved into the water. When you pull a shot, the acids are extracted first, followed by sugars, and finally the heavy bitters.</p><h3>The Sour Culprit: Under-Extraction</h3><p>If your espresso tastes sharp, salty, or unpleasantly sour, you have likely under-extracted. This happens when the water hasn't had enough contact time or surface area to pull out the sugars. To fix this, try grinding finer or increasing your yield.</p><h3>The Bitter End: Over-Extraction</h3><p>Conversely, a dry, ashy, or intensely bitter shot is over-extracted. You've pulled out too many organic compounds. To remedy this, coarsen your grind or decrease the water temperature slightly.</p><h3>Finding the Sweet Spot</h3><p>The goal is the sweet spot—where acidity and bitterness balance each other out to reveal the bean's unique origin flavors.</p>"
   }
 ]
