@@ -1,26 +1,12 @@
-[
-  {
-    "id": "best-espresso-machines-under-300",
-    "title": "Top 3 Entry Espresso Machines Under $300 (2026 Guide)",
-    "category": "Espresso Machines",
-    "readTime": "6 min read",
-    "date": "Oct 12, 2026",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
-    "summary": "Can you pull genuine 9-bar espresso without spending a fortune? We bench tested 12 entry-level espresso machines.",
-    "affiliateProduct": "De'Longhi Dedica Deluxe EC680",
-    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
-    "body": "<p>Entering the home espresso hobby used to require an investment of at least $1,000. Fortunately, thermoblock technology and pressurized portafilters have made real 9-bar extraction achievable for under $300.</p><h3 class=\"text-xl font-bold font-serif text-coffee-900 dark:text-coffee-100\">1. De'Longhi Dedica Deluxe EC680</h3><p>With its ultra-compact 6-inch width, the Dedica reaches brewing temperature in under 40 seconds.</p>"
-  },
-  {
-    "id": "burr-vs-blade-grinders",
-    "title": "Burr Grinder vs. Blade Grinder: The Untold Truth",
-    "category": "Grinders",
-    "readTime": "4 min read",
-    "date": "Oct 08, 2026",
-    "image": "https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?auto=format&fit=crop&w=800&q=80",
-    "summary": "Why your grinder matters far more than your espresso machine for dialing in rich microfoam shots.",
-    "affiliateProduct": "Baratza ESP Conical Burr Grinder",
-    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
-    "body": "<p>If you split your espresso budget 50/50 between machine and grinder, you will get significantly better espresso.</p>"
-  }
-]
+{
+  "id": "espresso-dialing-guide",
+  "title": "How to Dial In Your Espresso: A Beginner's Guide",
+  "category": "Guides",
+  "readTime": "4 min read",
+  "date": "Oct 11, 2026",
+  "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+  "summary": "Master shot timing, grind size, and yield to extract sweeter, balanced espresso at home.",
+  "affiliateProduct": "Timemore Chestnut C3 Grinder",
+  "affiliateUrl": "https://amazon.com",
+  "body": "<h3>Understanding the Variables</h3><p>Dialing in espresso is the systematic process of adjusting your brewing variables to achieve a balanced, sweet, and delicious shot. To do this effectively, you must control three primary factors: dose, yield, and time.</p><h3>1. The Dose</h3><p>The dose refers to the weight of dry coffee grounds in your portafilter basket. For a standard double shot, we recommend starting with 18 grams. Once you choose a dose, keep it constant while you adjust other settings.</p><h3>2. The Yield</h3><p>Yield is the weight of the liquid espresso in your cup. A classic starting point is a 1:2 ratio. If you use an 18g dose, aim for a 36g yield. If the coffee tastes too sour, try increasing the yield (e.g., 40g). If it tastes too bitter, decrease it (e.g., 32g).</p><h3>3. The Time (Grind Size)</h3><p>Brew time is how long it takes to reach your target yield. Aim for 25 to 30 seconds. If your shot flows too quickly (under 25 seconds), your grind is too coarse and the coffee will likely taste thin or acidic. If it flows too slowly (over 35 seconds), your grind is too fine, leading to a harsh, bitter cup. Adjust your grinder in small increments to find the sweet spot.</p>"
+}
