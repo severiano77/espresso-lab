@@ -331,6 +331,44 @@
             letter-spacing: -0.5px;
         }
 
+        .price-badge {
+            display: inline-block;
+            background: rgba(37, 99, 235, 0.1);
+            color: var(--accent);
+            padding: 0.3rem 0.8rem;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .buyer-intent-box, .advantages-box {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.2rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .buyer-intent-box h4, .advantages-box h4 {
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .advantages-box ul {
+            padding-left: 1.2rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .advantages-box li {
+            margin-bottom: 0.3rem;
+        }
+
         .article-summary {
             font-size: 1.05rem;
             color: var(--text-muted);
@@ -634,7 +672,7 @@
 
             <section id="articles">
                 <div class="category-filter" id="categoryFilter">
-                    <button class="filter-btn active" onclick="filterArticles('all')">🪑 All Posts</button>
+                    <!-- Dynamically generated category tabs (Posture, Cable Management, Gear, Extra Deals, Most Bought, etc.) -->
                 </div>
 
                 <div class="articles-stream" id="articlesStream">
@@ -747,11 +785,31 @@
                 
                 let affiliateHtml = '';
                 if (article.affiliateUrl) {
-                    const label = article.affiliateProduct ? `Check Price for ${article.affiliateProduct} on Amazon` : 'View Recommended Gear on Amazon';
+                    const label = article.affiliateProduct ? `Check Price for ${article.affiliateProduct} on Amazon` : 'Check Price on Amazon';
                     affiliateHtml = `<a href="${article.affiliateUrl}" target="_blank" rel="noopener" class="affiliate-link-btn">🛒 ${label}</a>`;
                 }
 
                 let summaryHtml = article.summary ? `<div class="article-summary">${article.summary}</div>` : '';
+                
+                let priceHtml = article.priceRange ? `<div class="price-badge">💰 Average Price: ${article.priceRange}</div>` : '';
+                
+                let whyBuyHtml = article.whyBuy ? `
+                    <div class="buyer-intent-box">
+                        <h4>💡 Why People Buy This:</h4>
+                        <p>${article.whyBuy}</p>
+                    </div>
+                ` : '';
+
+                let advantagesHtml = '';
+                if (article.advantages && Array.isArray(article.advantages) && article.advantages.length > 0) {
+                    const listItems = article.advantages.map(adv => `<li>${adv}</li>`).join('');
+                    advantagesHtml = `
+                        <div class="advantages-box">
+                            <h4>✅ Key Advantages:</h4>
+                            <ul>${listItems}</ul>
+                        </div>
+                    `;
+                }
 
                 block.innerHTML = `
                     <div class="article-meta">
@@ -759,10 +817,13 @@
                         <span>📅 ${article.date || ''} &bull; ⏱️ ${article.readTime || '5 min read'}</span>
                     </div>
                     <h2 class="article-block-title">${article.title}</h2>
+                    ${priceHtml}
                     ${summaryHtml}
                     <img src="${article.image}" alt="${article.title}" class="article-block-img">
                     <div class="article-block-body">
-                        ${article.body}
+                        ${whyBuyHtml}
+                        ${advantagesHtml}
+                        ${article.body || ''}
                         ${affiliateHtml}
                     </div>
                 `;
