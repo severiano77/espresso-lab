@@ -1,12 +1,14 @@
-{
-  "id": "espresso-dialing-guide",
-  "title": "How to Dial In Your Espresso: A Beginner's Guide",
-  "category": "Guides",
-  "readTime": "4 min read",
-  "date": "Oct 11, 2026",
-  "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
-  "summary": "Master shot timing, grind size, and yield to extract sweeter, balanced espresso at home.",
-  "affiliateProduct": "Timemore Chestnut C3 Grinder",
-  "affiliateUrl": "https://amazon.com",
-  "body": "<h3>Understanding the Variables</h3><p>Dialing in espresso is the systematic process of adjusting your brewing variables to achieve a balanced, sweet, and delicious shot. To do this effectively, you must control three primary factors: dose, yield, and time.</p><h3>1. The Dose</h3><p>The dose refers to the weight of dry coffee grounds in your portafilter basket. For a standard double shot, we recommend starting with 18 grams. Once you choose a dose, keep it constant while you adjust other settings.</p><h3>2. The Yield</h3><p>Yield is the weight of the liquid espresso in your cup. A classic starting point is a 1:2 ratio. If you use an 18g dose, aim for a 36g yield. If the coffee tastes too sour, try increasing the yield (e.g., 40g). If it tastes too bitter, decrease it (e.g., 32g).</p><h3>3. The Time (Grind Size)</h3><p>Brew time is how long it takes to reach your target yield. Aim for 25 to 30 seconds. If your shot flows too quickly (under 25 seconds), your grind is too coarse and the coffee will likely taste thin or acidic. If it flows too slowly (over 35 seconds), your grind is too fine, leading to a harsh, bitter cup. Adjust your grinder in small increments to find the sweet spot.</p>"
-}
+[
+  {
+    "id": "puck-prep-perfection",
+    "title": "The Secret to No-Channeling Espresso: Puck Prep Essentials",
+    "category": "Technique",
+    "readTime": "5 min read",
+    "date": "October 24, 2026",
+    "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80",
+    "summary": "Learn the essential techniques of WDT, distribution, and tamping to eliminate channeling and improve your shot consistency.",
+    "affiliateProduct": "Normcore V4 Spring-Loaded Tamper",
+    "affiliateUrl": "https://amazon.com",
+    "body": "<h3>The Importance of Puck Prep</h3><p>Even with the most expensive espresso machine, poor puck preparation leads to channeling—where water finds the path of least resistance through the coffee bed. This results in an uneven extraction, giving you a shot that is both sour and bitter at the same time.</p><h4>Step 1: WDT (Weiss Distribution Technique)</h4><p>Using a WDT tool with thin needles (0.3mm to 0.4mm) helps break up clumps caused by the grinder's static and ensures an even density across the portafilter basket. Swirl the needles from the bottom up to homogenize the bed.</p><h4>Step 2: Leveling</h4><p>Before tamping, ensure the coffee is level. A quick vertical tap on the counter can help settle the grounds, but your WDT tool should have already done the heavy lifting.</p><h4>Step 3: The Tamp</h4><p>A level tamp is far more important than the specific amount of pressure you apply. Once the air is squeezed out of the coffee bed, additional pressure doesn't change the density significantly. Focus on keeping the tamper perfectly horizontal to the basket rim.</p>"
+  }
+]
