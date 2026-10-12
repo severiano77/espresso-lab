@@ -1,42 +1,52 @@
 [
   {
-    "id": "baratza-encore-esp",
-    "name": "Baratza Encore ESP",
-    "category": "Grinders",
-    "priceRange": "$199",
-    "bestFor": "Entry-Level All-Rounder",
-    "image": "https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?auto=format&fit=crop&w=600&q=80",
-    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
-    "description": "Features dual-range adjustment with micro-steps for precision dialing in espresso extraction."
+    "id": "huanuo-dual-monitor-arm",
+    "name": "HUANUO Dual Monitor Articulating Arm",
+    "category": "Posture & Ergonomics",
+    "priceRange": "$35 – $55",
+    "bestFor": "Neck Strain & Dual Displays",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://www.amazon.com/s?k=HUANUO+Dual+Monitor+Arm+Gas+Spring&tag=survivalistar-20",
+    "description": "Heavy-duty gas spring dual monitor mount that elevates dual screens to eye level and reclaims desktop space."
   },
   {
-    "id": "breville-bambino-plus",
-    "name": "Breville Bambino Plus",
-    "category": "Espresso Machines",
-    "priceRange": "$499",
-    "bestFor": "Compact Home Baristas",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
-    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
-    "description": "3-second heat-up time with ThermoJet heating and automated hands-free milk microfoam texturing."
+    "id": "under-desk-cable-tray",
+    "name": "Under-Desk Steel Cable Tray",
+    "category": "Cable Management",
+    "priceRange": "$18 – $28",
+    "bestFor": "Hiding Power Strips & Wires",
+    "image": "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://www.amazon.com/s?k=Under+Desk+Cable+Management+Tray+Metal&tag=survivalistar-20",
+    "description": "No-drill wire rack that keeps power strips, power bricks, and messy cords hidden underneath standing or fixed desks."
   },
   {
-    "id": "kingrinder-k6",
-    "name": "KINGrinder K6 Hand Grinder",
-    "category": "Hand Grinders",
-    "priceRange": "$99",
-    "bestFor": "Budget Espresso Precision",
-    "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80",
-    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
-    "description": "16um per click external adjustment ring, making fine adjustments for espresso effortless."
+    "id": "screenbar-led-monitor-light",
+    "name": "Baseus LED Monitor Light Bar",
+    "category": "Essential Gear",
+    "priceRange": "$35 – $70",
+    "bestFor": "Eye Strain & Late-Night Work",
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://www.amazon.com/s?k=Baseus+Monitor+Light+Bar+Screenbar&tag=survivalistar-20",
+    "description": "Space-saving monitor-mounted bar with asymmetric glare-free lighting and adjustable color temperatures."
   },
   {
-    "id": "timemore-black-mirror",
-    "name": "Timemore Black Mirror Basic+",
-    "category": "Scales & Accessories",
-    "priceRange": "$55",
-    "bestFor": "Shot Timing & Ratio Accuracy",
-    "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=600&q=80",
-    "affiliateUrl": "https://amazon.com?tag=yourtag-20",
-    "description": "0.1g fast response digital scale with built-in auto-timer for consistent shot ratio measurements."
+    "id": "anker-10-in-1-usb-c-hub",
+    "name": "Anker 10-in-1 USB-C Docking Station",
+    "category": "Extra Deals & Promo",
+    "priceRange": "$45 – $65",
+    "bestFor": "Single-Cable Laptop Docking",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://www.amazon.com/s?k=Anker+USB+C+Docking+Station+10-in-1&tag=survivalistar-20",
+    "description": "High-value compact desk hub providing dual 4K HDMI output, 100W Power Delivery charging, and high-speed data transfer."
+  },
+  {
+    "id": "everlasting-comfort-footrest",
+    "name": "Ergonomic Memory Foam Foot Cushion",
+    "category": "Most Bought / Top Pick",
+    "priceRange": "$25 – $35",
+    "bestFor": "Lower Back & Leg Ergonomics",
+    "image": "https://images.unsplash.com/photo-1580481072645-022f9a6d83d0?auto=format&fit=crop&w=600&q=80",
+    "affiliateUrl": "https://www.amazon.com/s?k=Ergonomic+Memory+Foam+Footrest+Under+Desk&tag=survivalistar-20",
+    "description": "Ergonomic memory foam foot cushion designed to align the lumbar spine and relieve hip pressure during long sitting hours."
   }
 ]
