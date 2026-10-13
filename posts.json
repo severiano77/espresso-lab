@@ -1,21 +1,21 @@
 [
   {
-    "id": "evolution-of-the-ergonomic-keyboard",
-    "title": "From Clack to Comfort: The Fascinating History of Ergonomic Keyboards",
+    "id": "evolution-of-the-trackball-mouse",
+    "title": "From Radar Control to Thumb-Driven Precision: The Fascinating History of the Trackball",
     "category": "Hardware History",
     "readTime": "6 min read",
-    "date": "Oct 26, 2026",
+    "date": "Oct 24, 2026",
     "priceRange": "Historical Article (N/A)",
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Discover how the typewriter's linear design forced decades of wrist strain, and how visionary engineers reshaped the modern workspace.",
-    "whyBuy": "Understanding the history of ergonomic input devices helps modern remote workers appreciate why split angles and tenting are essential for preventing repetitive strain injuries (RSI).",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Explore how a military radar plotting device invented during WWII evolved into the ultimate space-saving ergonomic input device we know today.",
+    "whyBuy": "Understanding the history of office hardware helps modern desk workers appreciate why ergonomic alternatives like trackballs remain superior for joint health, repetitive strain injury (RSI) prevention, and tight workspace configurations.",
     "advantages": [
-      "Explores the transition from flat membrane layouts to split mechanical designs",
-      "Highlights the anatomical breakthroughs in carpal tunnel prevention",
-      "Traces the evolution of tenting and ortholinear key arrangements"
+      "Originated as a classified military invention by Ralph Risley in 1946",
+      "Eliminates the need for horizontal desk sweeping, reducing wrist and shoulder fatigue",
+      "Paved the way for modern optical tracking and optical-mechanical input sensors"
     ],
-    "affiliateProduct": "Ergonomic Split Mechanical Keyboard",
-    "affiliateUrl": "https://www.amazon.com/s?k=split+ergonomic+mechanical+keyboard&tag=survivalistar-20",
-    "body": "<p>When Christopher Latham Sholes patented the QWERTY typewriter layout in the late 19th century, his primary design constraint was preventing mechanical key jams—not preserving human joint health. For over a century, typists were forced to align their wrists in an unnatural, pronated position, straight parallel to the desk edge, leading to an epidemic of carpal tunnel syndrome.</p><h3>The Split Design Revolution</h3><p>The journey toward ergonomic relief began in earnest during the late 20th century as computing became ubiquitous in office environments. Inventors realized that forcing human hands to angle inward at 45 to 90 degrees created chronic tension in the forearms and wrists. Early prototypes introduced the 'split' concept, physically dividing the keyboard into two independent halves that could align with the natural shoulder width of the user.</p><h3>Modern Iterations</h3><p>Today's ergonomic keyboards combine historical lessons with modern engineering, featuring tenting (tilting the inner edges upward), thumb clusters, and ortholinear layouts. By examining where we started, workspace designers can better optimize their desks for long-term physical well-being.</p>"
+    "affiliateProduct": "Logitech ERGO M575 Wireless Trackball",
+    "affiliateUrl": "https://www.amazon.com/s?k=Logitech+ERGO+M575+Wireless+Trackball&tag=survivalistar-20",
+    "body": "<p>Long before computer mice dominated every desktop, the trackball was quietly shaping the future of human-computer interaction. Its origins date back to 1946, when Royal Canadian Navy officer Ralph Risley designed a crude plotting system for radar data using a roller ball and two synchronized wheels. However, because the project was classified by the military, the invention remained largely unknown to the commercial tech world for decades.</p><h3>The Commercial Leap</h3><p>It wasn't until 1966 that engineer Tom Cranston and his team at Ferranti-Packard built the first true trackball intended for commercial use. Dubbed the 'roller ball', it was integrated into the DATAR system, a computerized naval tactical data display. Users manipulated a heavy bowling-ball-sized sphere to navigate cursor coordinates on CRT screens.</p><h3>Transition to Ergonomic Productivity</h3><p>As personal computing exploded in the 1980s and 90s, manufacturers realized that traditional mice required valuable desk space and repetitive wrist movements that contributed to carpal tunnel syndrome. Trackballs offered a stationary solution where only fingers or the thumb moved the ball, leaving the hand completely rested. Today, while mice have captured the mainstream market, trackballs retain a passionate cult following among CAD designers, audio engineers, and ergonomic enthusiasts who value stationary precision over fast-paced gliding.</p>"
   }
 ]
