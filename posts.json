@@ -1,21 +1,21 @@
 [
   {
-    "id": "evolution-of-the-ergonomic-keyboard",
-    "title": "From Typewriters to Split Layouts: The Fascinating History of Ergonomic Keyboards",
+    "id": "evolution-of-the-trackball-history",
+    "title": "From Military Radar to Modern Ergonomics: The Fascinating History of the Trackball",
     "category": "Hardware History",
     "readTime": "6 min read",
-    "date": "Oct 26, 2026",
+    "date": "Oct 24, 2026",
     "priceRange": "Historical Article (N/A)",
-    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Explore how decades of repetitive strain injuries and anatomical research transformed the rigid typewriter layout into the modern, split-angle ergonomic marvels we use today.",
-    "whyBuy": "Understanding the history of input devices gives modern desk workers a deeper appreciation for wrist alignment, ulnar deviation prevention, and why split-key architecture is critical for long-term occupational health.",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Discover how a secret military invention turned into one of the most enduring alternative input devices for modern ergonomic workspaces.",
+    "whyBuy": "Understanding the hardware history of the trackball illuminates why stationary pointing devices remain a premier choice for relieving wrist strain and optimizing compact desk setups today.",
     "advantages": [
-      "Traces the evolution from mechanical typewriters to modern ortholinear layouts",
-      "Highlights the discovery and impact of carpal tunnel syndrome in early office environments",
-      "Explains the biomechanics behind tenting, splay, and ulnar deviation reduction"
+      "Originally invented in 1946 for Royal Canadian Navy radar plotting",
+      "Eliminates repetitive wrist sliding movements associated with traditional mice",
+      "Paved the way for modern optical tracking and ergonomic station design"
     ],
-    "affiliateProduct": "Ergonomic Mechanical Keyboard History",
-    "affiliateUrl": "https://www.amazon.com/s?k=ergonomic+split+keyboard&tag=survivalistar-20",
-    "body": "<p>When Christopher Latham Sholes patented the QWERTY keyboard layout in the late 19th century, his primary design goal was mechanical: to keep adjacent typewriter hammers from jamming. Ergonomics was entirely absent from the equation. As office environments shifted from mechanical typewriters to heavy-use computer terminals in the late 20th century, data entry professionals began experiencing debilitating wrist and hand pain at unprecedented rates.</p><h3>The Birth of Split Geometry</h3><p>The transition toward human-centric keyboard design truly began in the 1980s and 1990s. Researchers realized that forcing human wrists to type on a flat, straight surface caused unnatural ulnar deviation—bending the wrists outward toward the pinkies—as well as pronation, which twists the forearms flat. Pioneering industrial designers introduced the concept of the split keyboard, angling the key clusters to match the natural resting posture of the human arm and shoulder width.</p><h3>Modern Innovations in Ortholinear and Tenting Designs</h3><p>Today, the ergonomic keyboard market goes far beyond simple split boards. Innovations include ortholinear key grids (where keys are stacked in straight vertical columns rather than staggered), thumb clusters to offload work from the weaker pinky fingers, and adjustable tenting mechanisms that elevate the inner edges of the keyboard to prevent forearm pronation. By studying the historical progression of these input devices, desk workers can better choose hardware that actively protects their musculoskeletal health.</p>"
+    "affiliateProduct": "Kensington Expert Mouse Wireless Trackball",
+    "affiliateUrl": "https://www.amazon.com/s?k=Kensington+Expert+Mouse+Wireless+Trackball&tag=survivalistar-20",
+    "body": "<p>Long before optical sensors tracked our movements across sleek mousepads, the trackball was quietly shaping the future of human-computer interaction. Its origins date back to 1946, when naval officer Tom Cranston and his team developed a rudimentary system using a fivepin bowling ball and hardware rollers to track radar coordinates on a cathode-ray tube screen. This secret military project was called the Comprehensive Display System (CDS).</p><h3>The Commercial Pivot</h3><p>Despite its early military utility, the trackball didn't immediately find its way onto office desks. It wasn't until the 1960s that engineer Ken Kenyon and his colleagues at the Stanford Research Institute refined the mechanism for computer usage, eventually leading to commercial adaptations in CAD workstations, medical equipment, and arcade games like Missile Command.</p><h3>Why Ergonomists Still Love It</h3><p>In the modern workspace, the trackball has experienced a resurgence among developers, graphic designers, and office workers suffering from repetitive strain injuries (RSI). Unlike a standard mouse that requires sweeping arm and wrist motions, a trackball allows the hand to remain completely stationary while fingers or the thumb navigate the cursor. At Workspace Lab, we view the humble trackball not just as a retro novelty, but as a brilliant exercise in enduring ergonomic engineering.</p>"
   }
 ]
