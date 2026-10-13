@@ -1,22 +1,22 @@
 [
   {
-    "id": "evolution-of-the-trackball-mouse",
-    "title": "From Radar Control to Thumb-Driven Precision: The Fascinating History of the Trackball",
+    "id": "evolution-of-mechanical-keyboard-switches-history",
+    "title": "From Typewriters to Tactile Bliss: The Hardware History of Mechanical Keyboard Switches",
     "category": "Hardware History",
     "readTime": "6 min read",
-    "date": "Oct 24, 2026",
+    "date": "Oct 26, 2026",
     "priceRange": "Historical Article (N/A)",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Explore how a classified military invention transformed into an ergonomic precursor to the modern desktop mouse and why it remains a cult favorite today.",
-    "whyBuy": "Understanding the hardware history of input devices sheds light on modern ergonomic design principles, RSI prevention, and why stationary pointing devices are making a major comeback in compact workspaces.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Explore the fascinating evolution of mechanical keyboard switches, tracing their origins from heavy industrial typewriters to modern custom enthusiast builds.",
+    "whyBuy": "Understanding the deep history of switch mechanics helps desktop professionals appreciate the engineering behind actuation forces, dampening, and ergonomics in modern workspace setups.",
     "advantages": [
-      "Invented originally for Royal Canadian Navy radar plotting in 1946",
-      "Eliminated the need for sweeping desk space required by traditional mice",
-      "Pioneered stationary ergonomics to reduce wrist strain and repetitive motion injuries"
+      "Traces the transition from buckling spring mechanisms to modern cross-stem switch designs",
+      "Explains the influence of IBM and Cherry Corporation on contemporary typing ergonomics",
+      "Highlights how acoustic tuning and tactile feedback evolved for office environments"
     ],
-    "affiliateProduct": "Logitech MX Ergo Wireless Trackball",
-    "affiliateUrl": "https://www.amazon.com/s?k=Logitech+MX+Ergo+Wireless+Trackball&tag=survivalistar-20",
-    "body": "<p>Long before optical sensors tracked our movements across sleek mousepads, the foundation of computer navigation was born out of classified military necessity. The trackball—a device where the user rolls a ball with their fingers or thumb while the chassis remains entirely stationary—has a surprisingly rich history that predates the personal computer revolution by decades.</p><h3>The Secret Canadian Origins</h3><p>The story begins in 1946 with Ralph Benjamin, a brilliant engineer working for the Royal Canadian Navy. Benjamin was developing a radar plotting system known as the Comprehensive Display System. To calculate radar coordinates quickly, he needed a flexible input device. His solution was an analog ball-tracking mechanism that used rollers to detect motion in the X and Y axes. This prototype, unfortunately, remained a military secret and was never patented for commercial use.</p><h3>The DATAR Project and Commercial Breakthrough</h3><p>A few years later in 1952, British electrical engineers Tom Cranston and Fred Longstaff, alongside public servant Monty Merlin, refined the concept for the DATAR (Digital Automated Tracking and Resolving) system. They famously used a standard five-pin bowling ball as the spherical rolling element in their prototype. However, because the system was built for military operations under strict non-disclosure agreements, Xerox PARC researchers and Douglas Engelbart are often mistakenly credited with inventing the standalone pointing mouse concept independently in the 1960s.</p><h3>Why Trackballs Matter for Modern Ergonomics</h3><p>As personal computing exploded in the 1980s and 90s, trackballs found a dedicated niche among CAD designers, laptop users with limited desk space, and office workers suffering from carpal tunnel syndrome. Because the base stays fixed on the desk, the user's wrist remains in a neutral, relaxed position. Today, high-end finger-operated and thumb-operated trackballs are experiencing a resurgence as remote workers and power users seek out ergonomic alternatives that minimize repetitive strain injuries.</p>"
+    "affiliateProduct": "Cherry MX Switch Switch Tester",
+    "affiliateUrl": "https://www.amazon.com/s?k=Cherry+MX+Switch+Tester&tag=survivalistar-20",
+    "body": "<p>When we look at the sleek mechanical keyboards dominating modern desk setups, it is easy to forget that the underlying technology is rooted in over a century of mechanical engineering. The journey began with heavy-duty mechanical typewriters, where every keypress had to generate enough physical force to strike an inked ribbon against paper.</p><h3>The Mechanical Era and IBM's Legacy</h3><p>As computing entered the mainstream in the late 20th century, early computer terminals adopted similar heavy mechanical principles. The breakthrough came with the IBM Model M in 1985, which popularized the buckling spring mechanism. This design provided a distinct tactile bump and an audible click, ensuring typists received immediate physical confirmation that a keystroke was registered.</p><h3>The Rise of Cherry MX and Modern Customization</h3><p>While buckling springs ruled early enterprise offices, the German manufacturer Cherry Corporation shifted the paradigm with the introduction of the Cherry MX switch series in the 1980s. Originally classified by color-coded stems denoting actuation force and tactile feedback—Black, Blue, Brown, and Red—these switches became the gold standard for durability and reliability.</p><p>Today, the mechanical keyboard market has expanded far beyond standard office equipment into a thriving enthusiast culture. Lubrication, gasket mounts, and custom-tuned dampening materials have transformed the humble keyboard from a utilitarian peripheral into a core component of workspace ergonomics and personal expression.</p>"
   },
   {
     "id": "evolution-of-the-ergonomic-keyboard",
