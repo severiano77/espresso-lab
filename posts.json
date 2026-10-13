@@ -1,21 +1,21 @@
 [
   {
-    "id": "evolution-of-the-trackball-mouse",
-    "title": "From Radar Control to Thumb-Driven Precision: The Fascinating History of the Trackball Mouse",
+    "id": "evolution-of-the-ergonomic-keyboard",
+    "title": "From Clack to Comfort: The Fascinating History of Ergonomic Keyboards",
     "category": "Hardware History",
     "readTime": "6 min read",
-    "date": "Oct 24, 2026",
+    "date": "Oct 26, 2026",
     "priceRange": "Historical Article (N/A)",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Discover how a secret military project evolved into the ultimate space-saving, ergonomic input device used by power users today.",
-    "whyBuy": "Understanding the history of office hardware gives you a deeper appreciation for modern ergonomic innovations, helping you choose the right tools to protect your wrists and optimize your workflow.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
+    "summary": "Discover how the typewriter's linear design forced decades of wrist strain, and how visionary engineers reshaped the modern workspace.",
+    "whyBuy": "Understanding the history of ergonomic input devices helps modern remote workers appreciate why split angles and tenting are essential for preventing repetitive strain injuries (RSI).",
     "advantages": [
-      "Originally invented in 1946 for Royal Canadian Navy radar plotting",
-      "Eliminates repetitive wrist movements by utilizing stationary finger or thumb rollers",
-      "Paved the way for modern optical mouse sensors and ergonomic input design"
+      "Explores the transition from flat membrane layouts to split mechanical designs",
+      "Highlights the anatomical breakthroughs in carpal tunnel prevention",
+      "Traces the evolution of tenting and ortholinear key arrangements"
     ],
-    "affiliateProduct": "Kensington Expert Mouse Wireless Trackball",
-    "affiliateUrl": "https://www.amazon.com/s?k=Kensington+Expert+Mouse+Wireless+Trackball&tag=survivalistar-20",
-    "body": "<p>Long before computer mice dominated every desktop, the trackball was quietly shaping the future of human-computer interaction. Its origins date back to 1946 when Ralph Tomkinson and his colleagues at the Royal Canadian Navy developed a comprehensive radar display system called DATAR (Data Transmission and Recording equipment). To track moving objects on a screen efficiently, they embedded a standard five-pin bowling ball into a custom chassis.</p><h3>The Shift to Commercial Workstations</h3><p>While the military kept the technology under wraps for over a decade, engineering firms soon realized the immense spatial benefits of a stationary pointing device. Unlike traditional mice that required a clean surface and sweeping arm movements, a trackball stayed firmly planted on the desk. Throughout the 1970s and 1980s, computer-aided design (CAD) workstations and early personal computers adopted trackballs to maximize cramped desk footprints.</p><h3>Ergonomic Resurgence in Modern Workspaces</h3><p>Today, trackballs occupy a unique niche in the ergonomic hardware market. By shifting cursor control entirely to the thumb or fingers, they alleviate the repetitive strain injuries often associated with standard wrist-sliding mice. Whether you prefer a finger-operated unit for high-precision graphic design or a thumb-driven model for everyday navigation, the trackball remains a testament to ingenious, space-saving engineering.</p>"
+    "affiliateProduct": "Ergonomic Split Mechanical Keyboard",
+    "affiliateUrl": "https://www.amazon.com/s?k=split+ergonomic+mechanical+keyboard&tag=survivalistar-20",
+    "body": "<p>When Christopher Latham Sholes patented the QWERTY typewriter layout in the late 19th century, his primary design constraint was preventing mechanical key jams—not preserving human joint health. For over a century, typists were forced to align their wrists in an unnatural, pronated position, straight parallel to the desk edge, leading to an epidemic of carpal tunnel syndrome.</p><h3>The Split Design Revolution</h3><p>The journey toward ergonomic relief began in earnest during the late 20th century as computing became ubiquitous in office environments. Inventors realized that forcing human hands to angle inward at 45 to 90 degrees created chronic tension in the forearms and wrists. Early prototypes introduced the 'split' concept, physically dividing the keyboard into two independent halves that could align with the natural shoulder width of the user.</p><h3>Modern Iterations</h3><p>Today's ergonomic keyboards combine historical lessons with modern engineering, featuring tenting (tilting the inner edges upward), thumb clusters, and ortholinear layouts. By examining where we started, workspace designers can better optimize their desks for long-term physical well-being.</p>"
   }
 ]
