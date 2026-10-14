@@ -1,21 +1,21 @@
 [
   {
-    "id": "evolution-of-mechanical-keyboard-switches",
-    "title": "From Typewriters to Tactile Bliss: The Fascinating Hardware History of Mechanical Keyboard Switches",
+    "id": "evolution-of-mechanical-keyboard-switches-history",
+    "title": "Click, Thock, and Tactility: The Fascinating Evolution of Mechanical Keyboard Switches",
     "category": "Hardware History",
     "readTime": "6 min read",
-    "date": "Oct 27, 2026",
+    "date": "Oct 26, 2026",
     "priceRange": "Historical Article (N/A)",
     "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Explore how mechanical switches evolved from bulky mainframe terminals to the customizable, ultra-smooth typing mechanisms we rely on in modern workspaces.",
-    "whyBuy": "Understanding the heritage of mechanical switches gives desktop enthusiasts a deeper appreciation for modern ergonomics, tactile feedback profiles, and acoustics that reduce finger fatigue.",
+    "summary": "Explore how mechanical keyboard switches evolved from heavy mainframe terminals to the customizable tactile and acoustic tools we rely on in modern workspaces.",
+    "whyBuy": "Understanding the history of mechanical switches helps desktop enthusiasts appreciate why modern keyboard layouts, actuation forces, and bottom-out acoustics feel so satisfying today.",
     "advantages": [
-      "Traces the evolution from buckling springs to modern linear and tactile stems",
-      "Explains the foundational role of Cherry Corporation in standardizing switch designs",
-      "Highlights how vintage mechanisms shaped current ergonomic standards for high-volume typists"
+      "Trace the lineage from vintage IBM beam spring and buckling spring designs to modern MX clones",
+      "Understand how actuation force and tactile feedback profiles impact typing fatigue",
+      "Discover the cultural shift from noisy office data-entry to enthusiast custom builds"
     ],
-    "affiliateProduct": "Mechanical Keyboard Switch History Guide",
-    "affiliateUrl": "https://www.amazon.com/s?k=mechanical+keyboard+switch+history&tag=survivalistar-20",
-    "body": "<p>When we sit down at our desks today, the satisfying click and clack of a mechanical keyboard feels thoroughly modern—a staple of gaming rigs and high-end productivity setups alike. However, the lineage of the mechanical switch stretches back well over a century, evolving directly from the mechanics of industrial typewriters and early computing mainframes.</p><h3>The Mechanical Ancestry</h3><p>Before the rise of cheap membrane keyboards in the late 1980s—designed primarily to cut manufacturing costs for home computers—every keyboard was mechanical. Early terminals required physical electrical contact switches beneath each keycap. The most legendary early design, the buckling spring mechanism popularized by IBM in the Model M, introduced a distinct tactile snap and audible feedback that ensured typists knew the exact moment a keystroke registered.</p><h3>The Cherry Corporation Revolution</h3><p>As personal computing scaled, German manufacturer Cherry revolutionized the industry by patenting the Cherry MX switch series in the 1980s. Utilizing a standardized cross-shaped stem and a modular internal spring system, these switches categorized themselves by color—Red, Blue, Brown, and Black—defining the holy trinity of linear, tactile, and clicky sensations that modern typists still use as benchmarks.</p><h3>Modern Ergonomic Impact</h3><p>Today, the mechanical switch is no longer just a nostalgic throwback; it is an active ergonomic tool. Modern variations focus on dampening acoustics for open-plan offices, optimizing actuation force to prevent repetitive strain injuries (RSI), and offering hot-swappable custom layouts. By looking back at how these springs and stems evolved, desk workers can better choose the exact tactile profile that protects their wrists and maximizes daily typing comfort.</p>"
+    "affiliateProduct": "Cherry MX Switch Universal Tester Kit",
+    "affiliateUrl": "https://www.amazon.com/s?k=Cherry+MX+Switch+Tester+Kit&tag=survivalistar-20",
+    "body": "<p>When we look at the modern desktop workspace, the mechanical keyboard has transformed from a forgotten corporate relic into an essential productivity instrument and enthusiast hobby. But how did we get from deafening mainframe terminals to modern, buttery-smooth linear switches and deep, thocky acoustics?</p><h3>The Mechanical Era Before Membrane Domination</h3><p>In the early days of personal computing and terminal entry, mechanical switches were not a luxury—they were the default manufacturing standard. Companies like IBM pioneered heavy-duty architectures such as the buckling spring mechanism, which provided a distinct tactile click and physical resistance that ensured the user knew an electrical contact had registered. These keyboards were built like tanks, often outliving the computers they were connected to.</p><h3>The Cost-Cutting Shift to Rubber Domes</h3><p>As personal computers entered mainstream home and office markets in the 1980s and 1990s, manufacturers faced intense pressure to lower costs. This drove the industry toward rubber dome and membrane keyboards. While quieter and significantly cheaper to produce, these keyboards lacked precision, degraded quickly as the rubber lost elasticity, and offered a spongy typing experience that contributed to finger fatigue.</p><h3>The Renaissance of Cherry MX and Custom Switches</h3><p>The modern mechanical keyboard renaissance began with the rediscovery of German-engineered Cherry MX switches. Originally designed in the 1980s for industrial applications, their standardized color-coded stems—Blue for clicky, Brown for tactile, and Red for linear—became the blueprint for the entire enthusiast market. Today, switch manufacturing has expanded globally, introducing optical switches, magnetic hall-effect sensors, and factory-lubricated custom builds that let office workers fine-tune every keystroke for maximum ergonomics and acoustic pleasure.</p>"
   }
 ]
