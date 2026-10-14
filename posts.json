@@ -1,41 +1,22 @@
 [
   {
-    "id": "history-of-the-mechanical-keyboard-switch",
-    "title": "Clack to Quiet: The Fascinating History of Mechanical Keyboard Switches",
+    "id": "evolution-of-mechanical-keyboard-switches-history",
+    "title": "Click, Thock, and Tactility: The Fascinating History of Mechanical Keyboard Switches",
     "category": "Hardware History",
     "readTime": "6 min read",
-    "date": "Nov 14, 2026",
+    "date": "Oct 27, 2026",
     "priceRange": "Historical Article (N/A)",
     "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Trace the fascinating evolution of the mechanical keyboard switch from heavy industrial mainframes to modern enthusiast workspaces.",
-    "whyBuy": "Understanding the history of mechanical switches helps modern desktop setups appreciate why tactile feedback and actuation force matter so much for long-term typing ergonomics and hand fatigue reduction.",
+    "summary": "Explore how mechanical switches evolved from bulky mainframe terminals to the highly customizable acoustic masterpieces found on modern desks.",
+    "whyBuy": "Understanding the origins of mechanical switches helps modern typists appreciate the engineering behind actuation forces, tactile bumps, and sound profiles that prevent repetitive strain injuries.",
     "advantages": [
-      "Explores the transition from buckling spring mechanisms to modern modular leaf-spring stems",
-      "Details how acoustic profiles evolved from deafening clacks to muted, lubed thocks",
-      "Highlights key engineering milestones that revolutionized office productivity hardware"
+      "Traces the transition from heavy buckling springs to smooth linear stems",
+      "Explains the influence of vintage IBM and Cherry architecture on contemporary keyboards",
+      "Highlights ergonomic and productivity shifts in office typing over five decades"
     ],
-    "affiliateProduct": "Cherry MX Mechanical Switch Switch Tester",
+    "affiliateProduct": "Cherry MX Switch Switch Tester",
     "affiliateUrl": "https://www.amazon.com/s?k=Cherry+MX+Switch+Tester&tag=survivalistar-20",
-    "body": "<p>When we look at the sleek, customizable mechanical keyboards gracing our modern workspaces today, it is easy to forget that the underlying technology has roots stretching back over half a century. The journey of the mechanical keyboard switch is a masterclass in industrial engineering, balancing tactile feedback, acoustic design, and sheer durability.</p><h3>The Golden Era of Terminals</h3><p>In the early days of computing, keyboards were not peripheral accessories; they were heavy, integrated parts of mainframe terminals. Mechanisms like the IBM beam spring and later the buckling spring revolutionized input by providing a crisp, unmistakable tactile snap. These designs ensured the typist instantly knew when a keystroke registered, drastically reducing data entry errors in corporate environments.</p><h3>The Rise and Fall of Membrane Dominance</h3><p>As personal computing expanded into consumer households during the 1980s and 90s, cost-efficiency became paramount. The industry shifted heavily toward rubber dome and membrane keyboards, which were cheaper to mass-produce and significantly quieter. However, this came at the cost of tactile precision and long-term durability, leading to mushy typing experiences that plagued office workers for decades.</p><h3>The Modern Enthusiast Renaissance</h3><p>The turn of the 21st century sparked an underground resurgence in mechanical keyboards, spearheaded by communities rediscovering vintage boards and demanding better ergonomics. Manufacturers like Cherry, Gateron, and Kailh revitalized the market with modular, customizable switches. Today, choosing between linear, tactile, and clicky switches is a vital part of curating an ergonomic desk setup that minimizes finger strain and maximizes typing joy.</p>"
-  },
-  {
-    "id": "evolution-of-the-trackball-mouse",
-    "title": "From Radar Control to Thumb-Driven Precision: The Fascinating History of the Trackball",
-    "category": "Hardware History",
-    "readTime": "6 min read",
-    "date": "Oct 24, 2026",
-    "priceRange": "Historical Article (N/A)",
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=80",
-    "summary": "Explore how a classified military invention transformed into an ergonomic precursor to the modern desktop mouse and why it remains a cult favorite today.",
-    "whyBuy": "Understanding the hardware history of input devices sheds light on modern ergonomic design principles, RSI prevention, and why stationary pointing devices are making a major comeback in compact workspaces.",
-    "advantages": [
-      "Invented originally for Royal Canadian Navy radar plotting in 1946",
-      "Eliminated the need for sweeping desk space required by traditional mice",
-      "Pioneered stationary ergonomics to reduce wrist strain and repetitive motion injuries"
-    ],
-    "affiliateProduct": "Logitech MX Ergo Wireless Trackball",
-    "affiliateUrl": "https://www.amazon.com/s?k=Logitech+MX+Ergo+Wireless+Trackball&tag=survivalistar-20",
-    "body": "<p>Long before optical sensors tracked our movements across sleek mousepads, the foundation of computer navigation was born out of classified military necessity. The trackball—a device where the user rolls a ball with their fingers or thumb while the chassis remains entirely stationary—has a surprisingly rich history that predates the personal computer revolution by decades.</p><h3>The Secret Canadian Origins</h3><p>The story begins in 1946 with Ralph Benjamin, a brilliant engineer working for the Royal Canadian Navy. Benjamin was developing a radar plotting system known as the Comprehensive Display System. To calculate radar coordinates quickly, he needed a flexible input device. His solution was an analog ball-tracking mechanism that used rollers to detect motion in the X and Y axes. This prototype, unfortunately, remained a military secret and was never patented for commercial use.</p><h3>The DATAR Project and Commercial Breakthrough</h3><p>A few years later in 1952, British electrical engineers Tom Cranston and Fred Longstaff, alongside public servant Monty Merlin, refined the concept for the DATAR (Digital Automated Tracking and Resolving) system. They famously used a standard five-pin bowling ball as the spherical rolling element in their prototype. However, because the system was built for military operations under strict non-disclosure agreements, Xerox PARC researchers and Douglas Engelbart are often mistakenly credited with inventing the standalone pointing mouse concept independently in the 1960s.</p><h3>Why Trackballs Matter for Modern Ergonomics</h3><p>As personal computing exploded in the 1980s and 90s, trackballs found a dedicated niche among CAD designers, laptop users with limited desk space, and office workers suffering from carpal tunnel syndrome. Because the base stays fixed on the desk, the user's wrist remains in a neutral, relaxed position. Today, high-end finger-operated and thumb-operated trackballs are experiencing a resurgence as remote workers and power users seek out ergonomic alternatives that minimize repetitive strain injuries.</p>"
+    "body": "<p>When we sit down at our desks today, the rhythmic clack or subtle thock of a mechanical keyboard is often the soundtrack of productivity. But the switches beneath our fingertips have a rich engineering lineage that dates back long before the personal computer revolution.</p><h3>The Mechanical Era of Mainframes</h3><p>In the mid-20th century, computing input meant heavy-duty terminals. Companies like IBM pioneered heavy tactile designs, most notably the legendary buckling spring mechanism introduced with the IBM Model M in 1985. These switches utilized a coiled spring that physically buckled under pressure, forcing a hammer against a membrane or capacitive contact to produce an unmistakable, crisp auditory click.</p><h3>The Rise of Cherry and Modern Modular Standards</h3><p>As computers became mainstream, cost-cutting measures led to the ubiquitous adoption of cheap rubber dome keyboards. However, enthusiasts and professionals maintained a demand for tactile feedback. This paved the way for German manufacturer Cherry GmbH and their iconic MX switch series, originally released in the early 1980s. Utilizing gold-crosspoint contacts, the Cherry MX design established the baseline color-coded taxonomy—Red, Blue, Brown—that defines switch weighting and feedback profiles today.</p><p>Ultimately, the evolution of keyboard switches represents a constant pursuit of ergonomic comfort, acoustic satisfaction, and precision endurance. What started as an industrial necessity has transformed into an artisanal cornerstone of the modern desktop workspace.</p>"
   },
   {
     "id": "evolution-of-the-ergonomic-keyboard",
